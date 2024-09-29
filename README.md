@@ -53,11 +53,11 @@ El objetivo de esta práctica es controlar un sistema robótico o automatizado q
 
 Una vez iniciado el ciclo de ejecución del código:
 
-   - El brazo robótico se moverá a la posición inicial (**Home**), luego tomará el primer fusible desde la posición definida como **primero**, activará el pin para recoger el fusible (**On 2**), y lo llevará a la posición **segundo**, donde lo soltará (**Off 2**).
+   - El brazo robótico se moverá a la posición inicial (**Home**), luego se dirigirá donde se encuentra el primer fusible desde la posición definida como **primero**, activará el pin para recoger el fusible (**On 2**), y bajara en z durante la posición **segundo**, donde agarrará el fusible cerrando la pinza (**Off 2**).
      
-   - Después de colocar el fusible en su posición, el brazo volverá a **Home** y repetirá el proceso para el siguiente fusible, ajustando la altura en el eje Z por cada fusible adicional.
+   - Después de colocar el fusible en su posición utilizando **tercero + Z(i * 13)**, el brazo volverá a **Home** y repetirá el proceso para el siguiente fusible, ajustando la altura en el eje Z por cada fusible adicional.
    
-   - El robot subirá la altura de cada fusible en **tercero + Z(i * 13)**. Esto significa que en la primera iteración, el fusible se coloca en el nivel base, y en las siguientes iteraciones, la altura aumenta en 13 milimetros para apilar el fusible encima del anterior.
+   - Esto significa que en la primera iteración, el fusible se coloca en el nivel base, y en las siguientes iteraciones, la altura aumenta en 13 milimetros para apilar el fusible encima del anterior.
      
    ![Imagen de WhatsApp 2024-09-28 a las 18 31 35_9f18c53b](https://github.com/user-attachments/assets/5dc43714-e933-4ccb-9923-79a027c9f9bb)
 
