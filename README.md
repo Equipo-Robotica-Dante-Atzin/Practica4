@@ -31,9 +31,41 @@ Fend
 ```
 ![image](https://github.com/user-attachments/assets/a711b197-e597-416f-a4a4-fb908df00d05)
 
+Una vez comprobado el primer código se procedió a desarrollar otro código que implementará y tomara en cuenta la pinza del brazo robótico.
+```
+Function main
+Integer i
+For i = 0 To 3
+	Home
+	Go primero
+	On 2
+	Go segundo
+	Off 2
+	Go primero
+	Home
+	Go tercero +Z(i * 13)
+	On 2
+	Home
+Next
+Fend
+```
+El objetivo de esta práctica es controlar un sistema robótico o automatizado que apile cuatro fusibles de forma precisa. El robot se moverá a diferentes posiciones y alturas, colocando cada fusible en una capa encima del anterior.
 
+Una vez iniciado el ciclo de ejecución del código:
 
+   - El brazo robótico se moverá a la posición inicial (**Home**), luego tomará el primer fusible desde la posición definida como **primero**, activará el pin para recoger el fusible (**On 2**), y lo llevará a la posición **segundo**, donde lo soltará (**Off 2**).
+     
+   - Después de colocar el fusible en su posición, el brazo volverá a **Home** y repetirá el proceso para el siguiente fusible, ajustando la altura en el eje Z por cada fusible adicional.
+   
+   - El robot subirá la altura de cada fusible en **tercero + Z(i * 13)**. Esto significa que en la primera iteración, el fusible se coloca en el nivel base, y en las siguientes iteraciones, la altura aumenta en 13 milimetros para apilar el fusible encima del anterior.
+     
+   ![Imagen de WhatsApp 2024-09-28 a las 18 31 35_9f18c53b](https://github.com/user-attachments/assets/5dc43714-e933-4ccb-9923-79a027c9f9bb)
 
+   - El ciclo se repetirá cuatro veces hasta que todos los fusibles estén apilados.
+     
+     ![Imagen de WhatsApp 2024-09-28 a las 18 31 35_65da979d](https://github.com/user-attachments/assets/284372df-3a79-49aa-b589-7b3820d97a27)
+
+   - Una vez completado, el brazo volverá a **Home**, indicando que el proceso de apilamiento ha finalizado.
 
 ## Conclusiones
 
