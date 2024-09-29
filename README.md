@@ -14,23 +14,19 @@ El ciclo *For* proporciona una forma sencilla y eficiente de iterar sobre un con
 Por ejemplo, en un sistema de apilamiento automatizado, como el apilamiento de fusibles o piezas, el ciclo *For* puede utilizarse para mover un brazo robótico repetidamente a diferentes posiciones, ajustando ligeramente las coordenadas para apilar elementos uno sobre otro. Esto no solo reduce el margen de error, sino que también optimiza el tiempo de ejecución de la tarea.
 
 ## Instrucciones
-En primer lugar se realizó el código de manera simulada mediante un ciclo *For*, cabe destacar la falta de la pinza en el brazo por lo que únicamente se corroboró la correcta trayectoria de agarre del fusible y la correcta repetición.
+En primer lugar se realizó el código de manera simulada mediante un ciclo *For*, cabe destacar la falta de la pinza en el brazo por lo que únicamente se corroboró la correcta trayectoria de agarre del fusible y su perfecta repetición.
 ```
 Function main
 Integer i
 For i = 0 To 3
 	Home
 	Go primero
-	
 	Go segundo
-	
 	Go primero
 	Home
 	Go tercero +Z(i * 13)
-	
 	Home
 Next
-
 Fend
 ```
 ![image](https://github.com/user-attachments/assets/a711b197-e597-416f-a4a4-fb908df00d05)
