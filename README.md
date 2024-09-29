@@ -74,6 +74,16 @@ Una vez iniciado el ciclo de ejecución del código:
 
 ***Dante Mejía Silva:*** 
 
+### Conclusión
+
+### Conclusión
+
+Esta práctica nos ha permitido entender de manera profunda cómo el uso del ciclo `For` puede optimizar tareas repetitivas en un entorno automatizado, como el apilamiento de fusibles. Mediante la implementación de este ciclo, se logra que el sistema robótico ejecute de manera precisa y eficiente una serie de movimientos controlados, evitando la duplicación de código y asegurando la exactitud en cada operación. El robot ajusta la altura del apilamiento en cada iteración, permitiendo que cada fusible se coloque de manera uniforme uno sobre otro.
+
+La automatización de este proceso no solo minimiza el riesgo de errores humanos, sino que también mejora significativamente la productividad. Este enfoque modular en la programación facilita la adaptación del código a distintos escenarios, permitiendo ajustar parámetros como la cantidad de fusibles o la altura de apilamiento sin necesidad de reestructurar el programa completo.
+
+En conclusión, esta práctica nos demuestró la importancia de utilizar estructuras de control como el ciclo `For` en la automatización de tareas repetitivas, lo que no solo ahorra tiempo y esfuerzo, sino que también garantiza precisión y eficiencia en el proceso. Esto es fundamental en cualquier entorno industrial, donde la optimización de recursos y la calidad en la ejecución son esenciales para el éxito del sistema.
+
 ## Referencias Bibliográficas 
 
 [1] 	EpsonCompany, «Especialistas en automatización industrial». 2024, https://www.epson.es/es_ES/robots
