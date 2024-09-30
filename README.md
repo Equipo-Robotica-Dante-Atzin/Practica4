@@ -71,12 +71,15 @@ Una vez iniciado el ciclo de ejecución del código:
 
 ***Atzin Morales Alejandre:*** 
 
+La práctica permitió comprender sobre el uso de los ciclos **For** en la programación de sistemas robóticos, como en este caso, permitiendo la repetición de movimientos necesarios para apilar los fusibles de manera automatizada mediante el brazo robótico. A través de la implementación del ciclo que ajustaba las posiciones del brazo robótico y la pinza en cada iteración, se logró implementar el incremento progresivo de la altura en el eje Z.
+
+La implementación del ciclo no solo optimizó la ejecución de las tareas repetitivas, sino que también minimizó posibles errores al mantener una uniformidad en cada operación del ciclo. La simulación inicial permitió verificar la precisión en las trayectorias del brazo y que la lógica del código fuera la correcta, esto para evitar errores en la implementación física.
+
+Por último, el uso del ciclo **For** demostró ser una herramienta eficaz para la automatización de procesos repetitivos, siendo viable en tareas industriales que requieren de precisión, como en este caso el apilamiento de piezas.
+
+
 
 ***Dante Mejía Silva:*** 
-
-### Conclusión
-
-### Conclusión
 
 Esta práctica nos ha permitido entender de manera profunda cómo el uso del ciclo `For` puede optimizar tareas repetitivas en un entorno automatizado, como el apilamiento de fusibles. Mediante la implementación de este ciclo, se logra que el sistema robótico ejecute de manera precisa y eficiente una serie de movimientos controlados, evitando la duplicación de código y asegurando la exactitud en cada operación. El robot ajusta la altura del apilamiento en cada iteración, permitiendo que cada fusible se coloque de manera uniforme uno sobre otro.
 
