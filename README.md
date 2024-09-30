@@ -85,7 +85,7 @@ Esta práctica nos ha permitido entender de manera profunda cómo el uso del cic
 
 La automatización de este proceso no solo minimiza el riesgo de errores humanos, sino que también mejora significativamente la productividad. Este enfoque modular en la programación facilita la adaptación del código a distintos escenarios, permitiendo ajustar parámetros como la cantidad de fusibles o la altura de apilamiento sin necesidad de reestructurar el programa completo.
 
-En conclusión, esta práctica nos demuestró la importancia de utilizar estructuras de control como el ciclo `For` en la automatización de tareas repetitivas, lo que no solo ahorra tiempo y esfuerzo, sino que también garantiza precisión y eficiencia en el proceso. Esto es fundamental en cualquier entorno industrial, donde la optimización de recursos y la calidad en la ejecución son esenciales para el éxito del sistema.
+En conclusión, esta práctica nos demostró la importancia de utilizar estructuras de control como el ciclo `For` en la automatización de tareas repetitivas, lo que no solo ahorra tiempo y esfuerzo, sino que también garantiza precisión y eficiencia en el proceso. Esto es fundamental en cualquier entorno industrial, donde la optimización de recursos y la calidad en la ejecución son esenciales para el éxito del sistema.
 
 ## Referencias Bibliográficas 
 
